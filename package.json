@@ -1,5 +1,5 @@
 {
-  "name": "martinez-polygon-clipping",
+  "name": "martinez-polygon-clipping-simul-dalton",
   "version": "0.8.1",
   "description": "Martinez polygon clipping algorithm, does boolean operation on polygons (multipolygons, polygons with holes etc): intersection, union, difference, xor",
   "main": "dist/martinez.cjs",
