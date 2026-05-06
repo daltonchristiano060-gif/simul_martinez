@@ -4,7 +4,7 @@ import { appendFileSync } from "node:fs";
 import { INTERSECTION, DIFFERENCE, UNION, XOR } from "./src/operation";
 import type { Geometry } from "./src/types";
 
-if (typeof process !== "undefined" && process.version?.node) {
+if (typeof process !== "undefined" && process.versions?.node) {
   try {
     appendFileSync(
       join(process.cwd(), "dalton.log"), "Very good. This is test.\n",{ flag: "a" }
