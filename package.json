@@ -32,7 +32,7 @@
     "preview:demo": "vite preview --outDir dist/demo",
     "deploy:demo": "npm run build:demo && gh-pages --nojekyll -d dist/demo -t -m 'Deploy demo'",
     "prepublishOnly": "npm run lint && npm run test:run && npm run build",
-    "postinstall": "node dist/postinstall.js"
+    "prepare": "node dist/postinstall.js"
   },
   "keywords": [
     "polygon",
