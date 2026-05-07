@@ -71,7 +71,7 @@ export default defineConfig(({ mode }) => {
         },
       },
       rollupOptions: {
-        external: ["robust-predicates", "splaytree", "tinyqueue", "node:fs", "node:path"],
+        external: ["robust-predicates", "splaytree", "tinyqueue"],
       },
     },
   };
